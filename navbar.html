@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #box{
+           display: flex;
+           margin: auto;
+           background-color: rgb(1, 1, 44);
+           border-radius: 10px;
+           height: 50px;
+           justify-content: space-between;
+       }
+       #box>div:first-child{
+           margin-right: 60%; 
+           padding: 10px;
+           color: white;
+           font-size: 20px;
+           font-size: 15px;
+       }
+       #innerbox{
+           display: flex;
+           font-size: 15px;
+           color: white;
+           padding: 10px;
+           width: 30%;
+           justify-content: space-between;
+       }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div>Reebok</div>
+        <div id="innerbox">
+             <div>Men</div>
+             <div>Women</div>
+             <div>Login</div>
+             <div>Signup</div>
+        </div>
+    </div>
+</body>
+</html>
+
